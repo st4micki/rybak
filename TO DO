@@ -1,0 +1,18 @@
+Koncepcja rybaka
+Rybuck jest fishbotem na spacje
+
+1.Pierwszy algorytm AI reaguje na pojawienie się dymka z rybą
+2.Następnie program robi screen dymka, zapisuje go
+3.Drugi algorytm AI rozpoznaje liczbe znajdującą się w dymku
+    -tutaj trzeba będzie zrobić dość sporą bazę
+    -animacja każdego dymka składa sie z dwóch klatek
+4.Po rozpoznaniu liczby program czeka 2-3
+    -tu wypada zrobić pewne wychylenie
+5.Po odczekaniu program klika spację tyle razy ile trzeba
+    -na początku można użyć windows api i symulacje klawiatury
+    -ewentualnie myszki
+    -w ostateczności pozostaje komunikacja przez UART z arduino które sreruje ramieniem robota
+6.Cały cykl moze trwać różne ilości czasu
+    -Tutaj najlepiej poczekac i zbadac po jakim maksymalnym czasie wylawia rybe
+7.Czasami dymek sie nie pojawia
+    -program ma odczekać caly cykl i zaczac od nowa
